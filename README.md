@@ -13,8 +13,3 @@ How use to run:
       * (venv)$ pip install flask-wtf
       * (venv)$ pip install passlib
 ```
-Happy Coding 
-
-<p>
-  <img src ='https://github.com/MartMbithi/Py-Flask-Starter/blob/master/Screenshot.png'>
-</p>
