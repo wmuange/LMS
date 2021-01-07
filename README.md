@@ -1,7 +1,7 @@
-# Py-Flask-Starter🚀
-Kick start 🚀 any python-flask app ASAP with this template
+# Py-Library-Information-System
+
 ```
-How use this 
+How use to run:
   * Git clone
     * virtualenv venv
       * $ source venv/bin/activate
