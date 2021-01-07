@@ -1,7 +1,7 @@
-# Py-Flask-Starter🚀
-Kick start 🚀 any python-flask app ASAP with this template
+# Py-Library-Information-System
+
 ```
-How use this 
+How use to run:
   * Git clone
     * virtualenv venv
       * $ source venv/bin/activate
@@ -13,8 +13,3 @@ How use this
       * (venv)$ pip install flask-wtf
       * (venv)$ pip install passlib
 ```
-Happy Coding 
-
-<p>
-  <img src ='https://github.com/MartMbithi/Py-Flask-Starter/blob/master/Screenshot.png'>
-</p>

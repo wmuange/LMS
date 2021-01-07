@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.config['MYSQL_HOST'] = '127.0.0.1'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'martdevelopers_flask_starter'
+app.config['MYSQL_DB'] = 'LIBRARY'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 # init MYSQL
 mysql = MySQL(app)
@@ -21,6 +21,15 @@ mysql = MySQL(app)
 def index():
     return render_template('welcome.html')
 
+# About Route
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+# Services Route
+@app.route('/services')
+def services():
+    return render_template('services.html')
 
 # Registration Form Class
 class RegisterForm(Form):
